@@ -1,6 +1,6 @@
 ###
 # #%L
-# org.buffalo-coders:aws-lambda-jaxrs-assembly
+# org.buffalo-coders.aws.lambda.jaxrs:assembly
 # %%
 # Copyright (C) 2019 Buffalo Coders
 # %%
