@@ -1,8 +1,8 @@
 /*-
  * #%L
- * org.buffalo-coders:parent
+ * org.buffalo-coders.aws.lambda.jaxrs:assembly
  * %%
- * Copyright (C) 2018 - 2019 Buffalo Coders
+ * Copyright (C) 2019 Buffalo Coders
  * %%
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
