@@ -25,17 +25,16 @@
         <format>zip</format>
     </formats>
     <includeBaseDirectory>false</includeBaseDirectory>
+    <dependencySets>
+        <dependencySet>
+            <outputDirectory>lib</outputDirectory>
+            <scope>runtime</scope>
+        </dependencySet>
+    </dependencySets>
     <fileSets>
         <fileSet>
-            <directory>${project.build.directory}/lib</directory>
-            <outputDirectory>lib</outputDirectory>
-        </fileSet>
-        <fileSet>
-            <directory>${project.build.directory}/classes</directory>
-            <includes>
-                <include>**</include>
-            </includes>
-            <outputDirectory>/</outputDirectory>
+            <directory>${project.build.outputDirectory}</directory>
+            <outputDirectory>${file.separator}</outputDirectory>
         </fileSet>
     </fileSets>
 </assembly>
